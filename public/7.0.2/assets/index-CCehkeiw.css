@@ -15480,7 +15480,7 @@ div.window#bootScreen div.bottom {
   gap: 20px;
 }
 #initialSetupWizard {
-  background-image: url(/assets/img18-CXCfB_pK.jpg);
+  background-image: url(./img18-CXCfB_pK.jpg);
   background-position: center;
   background-size: cover;
 }

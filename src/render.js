@@ -2,10 +2,13 @@ import { App } from "./main";
 import { Versions } from "./store";
 
 export function renderVersion(version) {
+  document.title = `v${version} - ArcOS Warp`;
   App.className = "viewer";
 
   const versionInfo = Versions.filter((v) => v.version === version)[0];
   if (!versionInfo) location.href = "/";
+
+  document.head.querySelector("#favIcon").href = versionInfo.icon;
 
   const { menuBar, menuBarTrigger } = renderMenuBar(versionInfo);
   const iframe = document.createElement("iframe");

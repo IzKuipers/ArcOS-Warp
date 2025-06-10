@@ -25,7 +25,7 @@ export const Versions = [
   },
   { version: "5.0.4", url: "/5.0.4/index.html", icon: "/5.0.4/systemIcon.svg" },
   { version: "5.0.5", url: "/5.0.5/index.html", icon: "/5.0.5/systemIcon.svg" },
-  { version: "5.0.6", url: "/5.0./index.html", icon: "/5.0.6/systemIcon.svg" },
+  { version: "5.0.6", url: "/5.0.6/index.html", icon: "/5.0.6/systemIcon.svg" },
   { version: "5.0.7", url: "/5.0.7/index.html", icon: "/5.0.7/systemIcon.svg" },
   { version: "5.0.8", url: "/5.0.8/index.html", icon: "/5.0.8/systemIcon.svg" },
   { version: "5.0.9", url: "/5.0.9/index.html", icon: "/5.0.9/systemIcon.svg" },
