@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Home",
+    "path": "@client/help/Home.md",
+    "icon": "HomeIcon"
+  },
+  {
+    "name": "Settings",
+    "path": "@client/help/Settings.md",
+    "icon": "SettingsIcon",
+    "subitems": [
+      {
+        "name": "Managing your account",
+        "path": "@client/help/Settings/account.md",
+        "icon": "AccountIcon",
+        "subitems": [
+          {
+            "name": "Changing your profile picture",
+            "path": "@client/help/Settings/account/changeprofile.md"
+          },
+          {
+            "name": "Changing username or password",
+            "path": "@client/help/Settings/account/credentials.md"
+          },
+          {
+            "name": "Deleting your account",
+            "path": "@client/help/Settings/account/delete.md"
+          }
+        ]
+      },
+      {
+        "name": "Changing the theme",
+        "path": "@client/help/Settings/themes.md",
+        "icon": "ThemesIcon",
+        "subitems": [
+          {
+            "name": "Accent color and Style",
+            "path": "@client/help/Settings/themes/style.md"
+          },
+          {
+            "name": "Applying a theme",
+            "path": "@client/help/Settings/themes/apply.md"
+          },
+          {
+            "name": "Saving a theme",
+            "path": "@client/help/Settings/themes/save.md"
+          },
+          {
+            "name": "Deleting a theme",
+            "path": "@client/help/Settings/themes/delete.md"
+          }
+        ]
+      },
+      {
+        "name": "The Desktop Wallpaper",
+        "path": "@client/help/Settings/wallpaper.md",
+        "icon": "DesktopIcon",
+        "subitems": [
+          {
+            "name": "Applying a wallpaper",
+            "path": "@client/help/Settings/wallpaper/apply.md"
+          },
+          {
+            "name": "Uploading a wallpaper",
+            "path": "@client/help/Settings/wallpaper/upload.md"
+          },
+          {
+            "name": "Using a URL as wallpaper",
+            "path": "@client/help/Settings/wallpaper/url.md"
+          }
+        ]
+      },
+      {
+        "name": "The Login Background",
+        "path": "@client/help/Settings/login.md",
+        "icon": "PasswordIcon",
+        "subitems": [
+          {
+            "name": "Applying a login background",
+            "path": "@client/help/Settings/login/apply.md"
+          },
+          {
+            "name": "Using a URL as login background",
+            "path": "@client/help/Settings/login/url.md"
+          },
+          {
+            "name": "Resetting the login background",
+            "path": "@client/help/Settings/login/reset.md"
+          }
+        ]
+      },
+      {
+        "name": "Changing visual aspects",
+        "path": "@client/help/Settings/visuals.md",
+        "icon": "PersonalizationIcon"
+      },
+      {
+        "name": "The Shell",
+        "path": "@client/help/Settings/shell.md",
+        "icon": "TaskbarIcon"
+      },
+      {
+        "name": "Changing Windows",
+        "path": "@client/help/Settings/windows.md",
+        "icon": "WindowSettingsIcon"
+      },
+      {
+        "name": "Apps",
+        "path": "@client/help/Settings/apps.md",
+        "icon": "AppsIcon"
+      }
+    ]
+  },
+  {
+    "name": "Logging",
+    "path": "@client/help/Logging.md",
+    "icon": "LoggerIcon",
+    "subitems": [
+      {
+        "name": "Logging-levels",
+        "path": "@client/help/Logging/Levels.md"
+      }
+    ]
+  },
+  {
+    "name": "Process Manager",
+    "path": "@client/help/ProcessManager.md",
+    "icon": "ProcessManagerIcon",
+    "subitems": [
+      {
+        "name": "Managing processes",
+        "path": "@client/help/ProcessManager/processes.md"
+      },
+      {
+        "name": "Managing services",
+        "path": "@client/help/ProcessManager/services.md"
+      },
+      {
+        "name": "Security settings",
+        "path": "@client/help/ProcessManager/security.md"
+      }
+    ]
+  },
+  {
+    "name": "Qlorb",
+    "path": "@client/help/Qlorb.md",
+    "icon": "QlorbIcon"
+  },
+  {
+    "name": "Lights Off",
+    "path": "@client/help/LightsOff.md",
+    "icon": "LightsOffIcon"
+  },
+  {
+    "name": "File Manager",
+    "path": "@client/help/FileManager.md",
+    "icon": "FileManagerIcon",
+    "subitems": [
+      {
+        "name": "What are system folders?",
+        "path": "@client/help/FileManager/SystemFolders.md"
+      },
+      {
+        "name": "Creating files/folders",
+        "path": "@client/help/FileManager/CreateFileFolder.md"
+      },
+      {
+        "name": "Uploading and downloading files",
+        "path": "@client/help/FileManager/Uploading.md"
+      },
+      {
+        "name": "Opening a file in another program",
+        "path": "@client/help/FileManager/Opening.md"
+      }
+    ]
+  },
+  {
+    "name": "Writer",
+    "path": "@client/help/Writer.md",
+    "icon": "TextEditorIcon"
+  },
+  {
+    "name": "Markdown Viewer",
+    "path": "@client/help/MarkDownViewer.md",
+    "icon": "MarkdownMimeIcon"
+  },
+  {
+    "name": "Image Viewer",
+    "path": "@client/help/ImageViewer.md",
+    "icon": "ImageViewerIcon"
+  },
+  {
+    "name": "Media Player",
+    "path": "@client/help/MediaPlayer.md",
+    "icon": "MediaPlayerIcon"
+  },
+  {
+    "name": "Contact Us",
+    "path": "@client/help/Contact.md",
+    "icon": "WaveIcon"
+  }
+]

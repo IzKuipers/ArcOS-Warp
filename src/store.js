@@ -1,0 +1,67 @@
+export const Versions = [
+  {
+    version: "5.0.0",
+    url: "/5.0.0/index.html",
+    icon: "/5.0.0/systemIcon.svg",
+    alpha: true,
+  },
+  {
+    version: "5.0.1",
+    url: "/5.0.1/index.html",
+    icon: "/5.0.1/systemIcon.svg",
+    alpha: true,
+  },
+  {
+    version: "5.0.2",
+    url: "/5.0.2/index.html",
+    icon: "/5.0.2/systemIcon.svg",
+    alpha: true,
+  },
+  {
+    version: "5.0.3",
+    url: "/5.0.3/index.html",
+    icon: "/5.0.3/systemIcon.svg",
+    alpha: true,
+  },
+  { version: "5.0.4", url: "/5.0.4/index.html", icon: "/5.0.4/systemIcon.svg" },
+  { version: "5.0.5", url: "/5.0.5/index.html", icon: "/5.0.5/systemIcon.svg" },
+  { version: "5.0.6", url: "/5.0./index.html", icon: "/5.0.6/systemIcon.svg" },
+  { version: "5.0.7", url: "/5.0.7/index.html", icon: "/5.0.7/systemIcon.svg" },
+  { version: "5.0.8", url: "/5.0.8/index.html", icon: "/5.0.8/systemIcon.svg" },
+  { version: "5.0.9", url: "/5.0.9/index.html", icon: "/5.0.9/systemIcon.svg" },
+  {
+    version: "5.0.10",
+    url: "/5.0.10/index.html",
+    icon: "/5.0.10/systemIcon.svg",
+  },
+  {
+    version: "5.0.11",
+    url: "/5.0.11/index.html",
+    icon: "/5.0.11/systemIcon.svg",
+  },
+  {
+    version: "5.0.12",
+    url: "/5.0.12/index.html",
+    icon: "/5.0.12/systemIcon.svg",
+  },
+  { version: "6.0.0", url: "/6.0.0/index.html", icon: "/6.0.0/logo.png" },
+  { version: "6.0.1", url: "/6.0.1/index.html", icon: "/6.0.1/logo.png" },
+  {
+    version: "7.0.0",
+    url: "/7.0.0/index.html",
+    icon: "/7.0.0/release.svg",
+    beta: true,
+  },
+  {
+    version: "7.0.1",
+    url: "/7.0.1/index.html",
+    icon: "/7.0.1/release.svg",
+    beta: true,
+  },
+  {
+    version: "7.0.2",
+    url: "/7.0.2/index.html",
+    icon: "/7.0.2/release.svg",
+    beta: true,
+  },
+];

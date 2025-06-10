@@ -1,0 +1,69 @@
+#app.viewer {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#app.viewer div.menu-bar {
+  position: fixed;
+  top: 15px;
+  width: 500px;
+  left: 50%;
+  translate: -50% 0;
+  background-color: #0006;
+  border: #fff2 1px solid;
+  height: 50px;
+  padding: 0 20px;
+  padding-left: 6px;
+  gap: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px 0 #000a;
+  margin-top: -80px;
+  transition: margin-top 0.3s;
+}
+
+#app.viewer div.menu-bar.visible {
+  margin-top: 0;
+}
+
+#app.viewer div.menu-bar-trigger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 100000;
+}
+
+#app.viewer div.menu-bar img {
+  height: 24px;
+}
+
+#app.viewer div.menu-bar div.version {
+  position: absolute;
+  left: 50%;
+  translate: -50% 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#app.viewer div.menu-bar button {
+  padding: 8px 15px;
+  background-color: #fff1;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+#app.viewer .warp-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
