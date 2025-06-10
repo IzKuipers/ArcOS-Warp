@@ -5,7 +5,11 @@ import "./style.css";
 export const App = document.getElementById("app");
 
 function populate() {
+  const h1 = document.createElement("h1");
+  h1.innerText = "ArcOS Warp";
+  App.append(h1);
   App.className = "selector";
+
   for (const version of Versions) {
     const button = document.createElement("button");
     const img = document.createElement("img");

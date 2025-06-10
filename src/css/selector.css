@@ -2,6 +2,13 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 0 10vw;
+}
+#app.selector h1 {
+  width: 80vw;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
 }
 
 #app.selector button {

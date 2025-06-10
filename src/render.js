@@ -55,6 +55,14 @@ function renderMenuBar(version) {
       menuBar.classList.remove("visible");
     }, 2000);
   });
+
+  setTimeout(() => {
+    menuBar.classList.add("visible");
+
+    timeout = setTimeout(() => {
+      menuBar.classList.remove("visible");
+    }, 2000);
+  }, 100);
   /** end trigger */
 
   return { menuBarTrigger, menuBar };
